@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\dx">
+      <UniqueIdentifier>{c2c3e20a-324e-4481-a6c1-6f3dfb86185c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\dx11">
+      <UniqueIdentifier>{6e5a873b-27cc-4e6b-8e1c-ec1138f3b42d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\model">
+      <UniqueIdentifier>{ea0264e7-27ac-4433-978c-9a2608472472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\model">
+      <UniqueIdentifier>{595d2e63-4cb5-4352-aaf8-22a74697bf27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\dx11\model">
+      <UniqueIdentifier>{66352740-e341-4c46-b9d5-a2a93aee010d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\dx11\common">
+      <UniqueIdentifier>{9a54b75a-26d5-4a49-9853-a670fc95cb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\fbx">
+      <UniqueIdentifier>{b72ff579-d3be-42c5-8456-74a4efd348a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\fbx\parse">
+      <UniqueIdentifier>{89e0d2dc-7b07-4902-9ba5-898fe8c1bf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\fbx\parse\detail">
+      <UniqueIdentifier>{14076471-7d9b-462f-8842-dfa8fb1b78bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\fbx">
+      <UniqueIdentifier>{a081482f-be4f-4c22-a714-cc6f44f8f687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\fbx\parse">
+      <UniqueIdentifier>{0875570b-5203-4d2b-b828-78d2009d85a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\fbx\parse\detail">
+      <UniqueIdentifier>{c5053ae2-a7f7-46ef-b5f1-2cbdce0e0a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\dx\model">
+      <UniqueIdentifier>{b6eb0867-c601-4487-9b8b-07c6c8dbf307}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\FbxCommon.h">
+      <Filter>ヘッダー ファイル\fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\FBXLoader.h">
+      <Filter>ヘッダー ファイル\fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\FBXParseMaterial.h">
+      <Filter>ヘッダー ファイル\fbx\parse\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx\FBXParseMesh.h">
+      <Filter>ヘッダー ファイル\fbx\parse\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11\DirectXShaderLevelDefine.h">
+      <Filter>ヘッダー ファイル\dx11\common</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11\DX11Drawable.h">
+      <Filter>ヘッダー ファイル\dx11\model</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11\DX11ModelData.h">
+      <Filter>ヘッダー ファイル\dx11\model</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11\DX11ThinWrapper.h">
+      <Filter>ヘッダー ファイル\dx11\common</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11\DXGI_FORMAT.h">
+      <Filter>ヘッダー ファイル\dx11\common</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Animation.h">
+      <Filter>ヘッダー ファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Model.h">
+      <Filter>ヘッダー ファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11\DX11GlobalDevice.h">
+      <Filter>ヘッダー ファイル\dx11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\FbxCommon.cpp">
+      <Filter>ソース ファイル\fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\FBXLoader.cpp">
+      <Filter>ソース ファイル\fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\FBXParse.cpp">
+      <Filter>ソース ファイル\fbx\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\FBXParseMaterial.cpp">
+      <Filter>ソース ファイル\fbx\parse\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx\FBXParseMesh.cpp">
+      <Filter>ソース ファイル\fbx\parse\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11\DX11Drawable.cpp">
+      <Filter>ソース ファイル\dx\model</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11\DX11ModelData.cpp">
+      <Filter>ソース ファイル\dx\model</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11\DX11ThinWrapper.cpp">
+      <Filter>ソース ファイル\dx</Filter>
+    </ClCompile>
+    <ClCompile Include="model\Model.cpp">
+      <Filter>ソース ファイル\model</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11\DX11GlobalDevice.cpp">
+      <Filter>ソース ファイル\dx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fbx\FBXParse.h">
+      <Filter>ヘッダー ファイル\fbx\parse</Filter>
+    </None>
+  </ItemGroup>
+</Project>
