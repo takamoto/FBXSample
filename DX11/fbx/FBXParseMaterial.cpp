@@ -54,7 +54,7 @@ namespace fbx{
 				auto shininess = material->FindProperty(FbxSurfaceMaterial::sShininess);
 				modelMaterial.shininess = (shininess.IsValid()) ? shininess.Get<FbxDouble>() : 1;
 
-
+				// FbxSurfaceMaterial::sNormalMapが法線マップだけどメタセコイヤはsBumpのバンプマップしかないっぽい
 				modelMaterial.diffuseTextureName = detail::getTexture(material->FindProperty(FbxSurfaceMaterial::sDiffuse));
 				modelMaterial.normalTextureName = detail::getTexture(material->FindProperty(FbxSurfaceMaterial::sBump));
 				modelMaterial.reflectionMapTextureName = detail::getTexture(material->FindProperty(FbxSurfaceMaterial::sReflection));
